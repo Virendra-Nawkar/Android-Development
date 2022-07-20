@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mails.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_Youtube_Videos"
+        android:name="com.example.mails.Youtube_videos"
+        android:label="@string/menu_Youtube_videos"
+        tools:layout="@layout/fragment_youtube_videos" />
+
+    <fragment
+        android:id="@+id/nav_To_do"
+        android:name="com.example.mails.To_do_list"
+        android:label="@string/menu_To_do_list"
+        tools:layout="@layout/fragment_to_do_list" />
+
+    <fragment
+        android:id="@+id/nav_Timer"
+        android:name="com.example.mails.timer"
+        android:label="@string/menu_timer"
+        tools:layout="@layout/fragment_timer" />
+
+    <fragment
+        android:id="@+id/nav_Music"
+        android:name="com.example.mails.music"
+        android:label="@string/menu_music"
+        tools:layout="@layout/fragment_music" />
+</navigation>

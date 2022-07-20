@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="textview">Text</string>
+    <string name="button">Button</string>
+    <string name="checkbox">Checkbox</string>
+</resources>

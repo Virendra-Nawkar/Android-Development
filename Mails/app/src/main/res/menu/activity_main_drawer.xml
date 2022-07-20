@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_Youtube_Videos"
+            android:icon="@drawable/ic_baseline_video_library_24"
+            android:title="@string/menu_Youtube_videos" />
+        <item
+            android:id="@+id/nav_To_do"
+            android:icon="@drawable/ic_baseline_list_alt_24"
+            android:title="@string/menu_To_do_list" />
+        <item
+            android:id="@+id/nav_Timer"
+            android:icon="@drawable/ic_baseline_access_time_filled_24"
+            android:title="@string/menu_timer" />
+        <item
+            android:id="@+id/nav_Music"
+            android:icon="@drawable/ic_baseline_music_note_24"
+            android:title="@string/menu_music" />
+    </group>
+</menu>

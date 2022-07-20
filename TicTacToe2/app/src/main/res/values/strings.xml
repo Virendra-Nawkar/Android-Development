@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="Heading">Welcome to Tic Tac Toe</string>
+    <string name="Grid">Main Grid</string>
+    <string name="Photo1">1</string>
+    <string name="Photo2">2</string>
+    <string name="Photo3">3</string>
+    <string name="Photo4">4</string>
+    <string name="Photo5">5</string>
+    <string name="Photo6">6</string>
+    <string name="Photo7">7</string>
+    <string name="Photo8">8</string>
+    <string name="Photo9">9</string>
+</resources>
